@@ -14,3 +14,4 @@ This will open up the GUI where you will be asked for Date, Title and Email(s) o
 Note : 
 * If required on Windows, please install Zenity from https://github.com/kvaps/zenity-windows/releases/download/v3.20.0-1/zenity-3.20.0_win32-1.exe
 * Please update the GMAIL_ID and GMAIL_PWD in send_reminders.py
+* If, in any case, the program is not able to send reminder, it will show up the error. Fix it and it will start working.
