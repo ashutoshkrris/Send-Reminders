@@ -44,7 +44,7 @@ def send_message(message, emails):
         message['To'] = email
         s.send_message(message)
     s.quit()
-    pass
+    pass 
 
 def main():
     if len(sys.argv) < 2:
