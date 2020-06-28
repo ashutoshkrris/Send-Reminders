@@ -5,8 +5,8 @@ import email
 import smtplib
 import sys
 
-GMAIL_ID = 'email'
-GMAIL_PWD = 'password'
+GMAIL_ID = 'ashutosh.devil7@gmail.com'
+GMAIL_PWD = 'devilishere123'
 
 def usage():
     print("send_reminders: Send meeting reminders")
@@ -54,7 +54,7 @@ def main():
         date, title, emails = sys.argv[1].split('|')
         message  = message_template(date, title)
         send_message(message, emails)
-        print("Successfully sent reminders to : ", emails)
+        print("Successfully sent reminder(s) to : ", emails)
     except Exception as e:
         print(f"Failed to send email with : {e}", file = sys.stderr)
 
