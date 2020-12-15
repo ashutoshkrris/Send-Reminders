@@ -5,8 +5,8 @@ import email
 import smtplib
 import sys
 
-GMAIL_ID = 'ashutosh.devil7@gmail.com'
-GMAIL_PWD = 'devilishere123'
+GMAIL_ID = 'email@gmail.com'
+GMAIL_PWD = 'password123'
 
 def usage():
     print("send_reminders: Send meeting reminders")
